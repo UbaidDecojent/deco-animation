@@ -1,0 +1,46 @@
+// @import "./normalize.scss";
+@import "./CSS-grid.scss";
+
+
+
+.header{
+    
+    margin: 360px auto;
+    .title{
+        font-family: Recoleta-Regular;
+        font-size: 6rem;
+        text-align: center;
+        color: #101010;
+        @media screen and (max-width: 991px) {
+            font-size: 2rem;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        margin: 0 auto;
+    }
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // width: 100%;
+    // overflow-x: hidden;
+    // overflow-y: visible;
+    @media screen and (max-width: 991px) {
+       flex-direction: column; 
+    }
+    // .card{
+    //     .img1{
+    //         transition: all 0.2s;
+    //     }
+    //     .img2{
+    //         transition: all 0.2s;
+    //     }
+    // }
+   
+}
+
+body{
+    overflow-x: hidden;
+}
